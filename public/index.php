@@ -7,7 +7,7 @@
     <title>Student Expense Tracker</title>
 
     <link rel="stylesheet" href="css/style.css">
-    ```html
+
 <style>
 * {
     margin: 0;
