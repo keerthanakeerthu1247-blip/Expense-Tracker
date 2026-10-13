@@ -11,10 +11,10 @@ find . -name "*.so"
 cd /home/workspace/my-project
 EXT=$(dirname $(find $PWD/phpext -name pdo_mysql.so))
 php -d extension=$EXT/mysqlnd.so -d extension=$EXT/pdo_mysql.so -m | grep -i mysql
-
 php -d extension=$EXT/mysqlnd.so -d extension=$EXT/mysqli.so -d extension=$EXT/pdo_mysql.so -S 0.0.0.0:8080 -t public
 
 https://b1187ed23a8a-0af41d78-5300.ws6.app/proxy/8080/
+
 
 
    cd /home/workspace/my-project
